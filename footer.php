@@ -22,8 +22,8 @@
          <h3>contact info</h3>
          <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
          <p> <i class="fas fa-phone"></i> +111-222-3333 </p>
-         <p> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </p>
-         <p> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </p>
+         <p> <i class="fas fa-envelope"></i> lan.vm.2183@aptechlearning.edu.vn </p>
+         <p> <i class="fas fa-map-marker-alt"></i> Hà Nội , Việt Nam ,+84</p>
       </div>
 
       <div class="box">
@@ -36,6 +36,6 @@
 
    </div>
 
-   <p class="credit"> &copy; copyright  @ <?php echo date('Y'); ?> by <span>mr. web designer</span> </p>
+   <p class="credit"> &copy; copyright  @ <?php echo date('Y'); ?> by <span>nhóm 03 aptech_ltn </span> </p>
 
 </section>
