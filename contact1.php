@@ -1,13 +1,13 @@
 <?php
 
 include 'config.php';
-
+error_reporting(E_ERROR | E_PARSE);
 session_start();
 
 $user_id = $_SESSION['user_id'];
 
-if(!isset($user_id)){
-   header('location:login.php');
+if(isset($user_id)){
+   header('location:home.php');
 }
 
 if(isset($_POST['send'])){
@@ -47,7 +47,7 @@ if(isset($_POST['send'])){
 </head>
 <body>
    
-<?php include 'header.php'; ?>
+<?php include 'header1.php'; ?>
 
 <div class="heading">
    <h3>contact us</h3>

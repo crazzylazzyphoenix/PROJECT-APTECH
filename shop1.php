@@ -3,11 +3,11 @@
 include 'config.php';
 
 session_start();
-
+error_reporting(E_ERROR | E_PARSE);
 $user_id = $_SESSION['user_id'];
 
-if(!isset($user_id)){
-   header('location:login.php');
+if(isset($user_id)){
+   header('location:shop.php');
 }
 
 if(isset($_POST['add_to_cart'])){
@@ -47,7 +47,7 @@ if(isset($_POST['add_to_cart'])){
 </head>
 <body>
    
-<?php include 'header.php'; ?>
+<?php include 'header1.php'; ?>
 
 <div class="heading">
    <h3>our shop</h3>
