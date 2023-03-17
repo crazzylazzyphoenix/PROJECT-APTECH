@@ -151,7 +151,7 @@ if(!isset($user_id)){
 
 
       <div class="box">
-         <img src="images/author-4.jpg" alt="">
+         <img src="images/author-1.jpg" alt="">
          <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -173,7 +173,7 @@ if(!isset($user_id)){
       </div>
 
       <div class="box">
-         <img src="images/author-6.jpg" alt="">
+         <img src="images/author-3.jpg" alt="">
          <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
