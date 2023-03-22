@@ -1,14 +1,13 @@
 <?php
-
+error_reporting(E_ERROR | E_PARSE);
 include 'config.php';
 
 session_start();
 
 $user_id = $_SESSION['user_id'];
 
-if(!isset($user_id)){
-   header('location:login.php');
-}
+if(isset($user_id)){
+ 
 
 if(isset($_POST['add_to_cart'])){
 
@@ -27,7 +26,16 @@ if(isset($_POST['add_to_cart'])){
    }
 
 }
+}
+else {
+   if(isset($_POST['add_to_cart'])){
 
+      $product_name = $_POST['product_name'];
+      $product_price = $_POST['product_price'];
+      $product_image = $_POST['product_image'];
+      $product_quantity = $_POST['product_quantity'];
+   }
+}
 ?>
 
 <!DOCTYPE html>
