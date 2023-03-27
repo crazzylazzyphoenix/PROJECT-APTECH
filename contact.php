@@ -3,12 +3,11 @@
 include 'config.php';
 
 session_start();
+error_reporting(E_ERROR | E_PARSE);
 
 $user_id = $_SESSION['user_id'];
 
-if(!isset($user_id)){
-   header('location:login.php');
-}
+
 
 if(isset($_POST['send'])){
 
